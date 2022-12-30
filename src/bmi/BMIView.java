@@ -14,7 +14,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import bmi.BMIVO;
+import bmi.bmivo;
 
 public class BMIView extends JFrame {
 	JTextField tfWeight, tfHeight;
@@ -82,7 +82,7 @@ public class BMIView extends JFrame {
 		@Override
 		public void actionPerformed(ActionEvent e) {
 //			BMIVO 객체에 입력 받은 체중과 키를 설정하고 bmi를 설정한다.
-			BMIVO vo = new BMIVO();
+			bmivo vo = new bmivo();
 			double weight = Double.parseDouble(tfWeight.getText());
 			double height = Double.parseDouble(tfHeight.getText());
 			vo.setWeight(weight);

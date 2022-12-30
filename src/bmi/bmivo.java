@@ -1,6 +1,6 @@
 package bmi;
 
-public class BMIVO {
+public class bmivo {
 	private double weight;
 	private double height;
 	private double bmi;
